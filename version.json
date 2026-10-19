@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-19",
-  "release_notes": "在线更新功能上线: GitHub多镜像通道+SHA256校验+静默安装",
+  "release_notes": "v5.8: 移除内嵌APK推送通道,升级统一走GitHub; 更新通道网络冗余(4通道x2轮重试+通道偏好持久化); 两端新增日志上传(规范编号日志包CarPadLog_端_版本_设备_时间,含版本/设备/IP元信息); 修复:空调写后回读三轮判定/WsServer畸形帧护栏/更新并发竞态/日志时间戳线程安全/导出双弹窗; 客户端体积89KB降至40KB",
   "server": {
-    "vname": "5.7",
-    "vcode": 12,
-    "url": "apk/CarPadServer_v5.7.apk",
-    "sha256": "621ac896a911ef5bc75514b921c5de28b810aec0c32bdc9d776676d2f1398f76",
+    "vname": "5.8",
+    "vcode": 13,
+    "url": "apk/CarPadServer_v5.8.apk",
+    "sha256": "99c7ac9726f0b6bde95e2404bb9ebd697c5e507630a4d1c1638a40c98c50bd53",
     "size": 54069
   },
   "client": {
-    "vname": "5.7",
-    "vcode": 12,
-    "url": "apk/CarPadClient_v5.7.apk",
-    "sha256": "f0669da1145eed81f5596789fffdc79a8c13aa986a066cd7061ef7f8fa3bb856",
-    "size": 91072
+    "vname": "5.8",
+    "vcode": 13,
+    "url": "apk/CarPadClient_v5.8.apk",
+    "sha256": "701dc9a30081702db98a976370206dc11c5b3b3dae52cecc8f3888db14bef911",
+    "size": 41780
   }
 }

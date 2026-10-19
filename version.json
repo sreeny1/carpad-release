@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-19",
-  "release_notes": "车机端新增「检查更新」按钮(与上传日志并排): 自动更新(90s首查+每6h+平板触发)失败后无需等6小时, 车机屏一键即时重试; 构建脚本git推送被墙自动走本地代理重试",
+  "release_notes": "升级完全解耦(用户要求): 平板不再代触发车机端OTA(update_check移除), 两端各自独立检测/下载/安装更新; 新增双向版本互显: 车机端界面显示\"平板端版本\", 平板顶栏继续显示车机端版本",
   "server": {
-    "vname": "5.12",
-    "vcode": 17,
-    "url": "apk/CarPadServer_v5.12.apk",
-    "sha256": "d5f088837a090755c32f7c0e3efe99cfb24c3172a968e1137f6e65b2d423abc8",
+    "vname": "5.13",
+    "vcode": 18,
+    "url": "apk/CarPadServer_v5.13.apk",
+    "sha256": "7e86a8b6723d8e8544defaf8d0ccddde3b32e952d031169d4ea2f13cba706dac",
     "size": 54069
   },
   "client": {
-    "vname": "5.12",
-    "vcode": 17,
-    "url": "apk/CarPadClient_v5.12.apk",
-    "sha256": "b2fdb7b095cd033480935640da3ed2568820ce9fa0c5ce621609525e9e84f389",
+    "vname": "5.13",
+    "vcode": 18,
+    "url": "apk/CarPadClient_v5.13.apk",
+    "sha256": "776b09b41848f7252be1dbeeaa74d32f7c77192b78228593ffc4ebd63e4ffc34",
     "size": 41780
   }
 }

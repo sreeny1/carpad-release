@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-19",
-  "release_notes": "应用名恢复纯软件名(去除桌面图标版本号后缀): 仅 APK 安装包文件名保留\"软件名+版本号\", 桌面应用名固定为\"CarPad服务端/CarPad副屏\"(用户澄清); 功能代码同 v5.10",
+  "release_notes": "车机端新增「检查更新」按钮(与上传日志并排): 自动更新(90s首查+每6h+平板触发)失败后无需等6小时, 车机屏一键即时重试; 构建脚本git推送被墙自动走本地代理重试",
   "server": {
-    "vname": "5.11",
-    "vcode": 16,
-    "url": "apk/CarPadServer_v5.11.apk",
-    "sha256": "52aa00c24848a0b52f78a9577e4463adf1695ebc0e950c697b4d5aac16966110",
+    "vname": "5.12",
+    "vcode": 17,
+    "url": "apk/CarPadServer_v5.12.apk",
+    "sha256": "d5f088837a090755c32f7c0e3efe99cfb24c3172a968e1137f6e65b2d423abc8",
     "size": 54069
   },
   "client": {
-    "vname": "5.11",
-    "vcode": 16,
-    "url": "apk/CarPadClient_v5.11.apk",
-    "sha256": "1839940b97e11e6f104c0176d1e2762cd9ef8e9846114bec9031974707a6a484",
+    "vname": "5.12",
+    "vcode": 17,
+    "url": "apk/CarPadClient_v5.12.apk",
+    "sha256": "b2fdb7b095cd033480935640da3ed2568820ce9fa0c5ce621609525e9e84f389",
     "size": 41780
   }
 }

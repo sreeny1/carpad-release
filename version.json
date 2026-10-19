@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "updated": "2026-10-19",
+  "server": {
+    "vname": "5.6",
+    "vcode": 11,
+    "url": "apk/CarPadServer_v5.6.apk",
+    "sha256": "ee6f1d9f01fa4bff83ca097c8b6ee139886f2b118b8c9b92924c7fff3c6a5335",
+    "size": 49973,
+    "notes": "温度1°C步进/音量AudioManager直调/媒体监听真实判定/内外循环文字回显"
+  },
+  "client": {
+    "vname": "5.6",
+    "vcode": 11,
+    "url": "apk/CarPadClient_v5.6.apk",
+    "sha256": "bcae69e8be807f2ff9d0c7ecf1bb5ad187da5d42c29fb9da6836b2272878d7dd",
+    "size": 82880,
+    "notes": "温度1°C步进/内外循环文字回显/版本号5.6"
+  }
+}

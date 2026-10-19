@@ -1,20 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-19",
+  "release_notes": "在线更新功能上线: GitHub多镜像通道+SHA256校验+静默安装",
   "server": {
-    "vname": "5.6",
-    "vcode": 11,
-    "url": "apk/CarPadServer_v5.6.apk",
-    "sha256": "ee6f1d9f01fa4bff83ca097c8b6ee139886f2b118b8c9b92924c7fff3c6a5335",
-    "size": 49973,
-    "notes": "温度1°C步进/音量AudioManager直调/媒体监听真实判定/内外循环文字回显"
+    "vname": "5.7",
+    "vcode": 12,
+    "url": "apk/CarPadServer_v5.7.apk",
+    "sha256": "621ac896a911ef5bc75514b921c5de28b810aec0c32bdc9d776676d2f1398f76",
+    "size": 54069
   },
   "client": {
-    "vname": "5.6",
-    "vcode": 11,
-    "url": "apk/CarPadClient_v5.6.apk",
-    "sha256": "bcae69e8be807f2ff9d0c7ecf1bb5ad187da5d42c29fb9da6836b2272878d7dd",
-    "size": 82880,
-    "notes": "温度1°C步进/内外循环文字回显/版本号5.6"
+    "vname": "5.7",
+    "vcode": 12,
+    "url": "apk/CarPadClient_v5.7.apk",
+    "sha256": "f0669da1145eed81f5596789fffdc79a8c13aa986a066cd7061ef7f8fa3bb856",
+    "size": 91072
   }
 }

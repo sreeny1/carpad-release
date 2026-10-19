@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-19",
-  "release_notes": "v5.9: 修复平板在线更新'解析包时出现问题'——弃用 DownloadManager 中转(Android 16 无权读应用私有目录致安装器拿到空流), 改自研 ApkProvider 提供只读流, 全版本行为一致; 车机端无变化",
+  "release_notes": "修复平板端点击无响应/反复断连: UI 主线程直写 socket 抛 NetworkOnMainThreadException 导致连接被带崩(v5.7 实车日志定位), 实际发送移入后台发送线程; 兼含 v5.9 在线更新解析包修复(ApkProvider)",
   "server": {
-    "vname": "5.9",
-    "vcode": 14,
-    "url": "apk/CarPadServer_v5.9.apk",
-    "sha256": "c7d3b15d8da76deba0c44dc13ba56bd4936ac93fff37148a6af41e7510aecc37",
+    "vname": "5.10",
+    "vcode": 15,
+    "url": "apk/CarPadServer_v5.10.apk",
+    "sha256": "5c7b409038012cf4b5b227b5b5ba3e138c8d56748c9cbfa8e26a1ce7c707efd9",
     "size": 54069
   },
   "client": {
-    "vname": "5.9",
-    "vcode": 14,
-    "url": "apk/CarPadClient_v5.9.apk",
-    "sha256": "e59f06edbfd86c0c65fb63d65b6ac6db28f15476b027de052d466d0d5b55dfcd",
+    "vname": "5.10",
+    "vcode": 15,
+    "url": "apk/CarPadClient_v5.10.apk",
+    "sha256": "c18913dd11d7c750d191e779e99c5024190aca071e831c938b6ff76831fdf7ad",
     "size": 41780
   }
 }

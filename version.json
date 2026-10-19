@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-19",
-  "release_notes": "修复平板端点击无响应/反复断连: UI 主线程直写 socket 抛 NetworkOnMainThreadException 导致连接被带崩(v5.7 实车日志定位), 实际发送移入后台发送线程; 兼含 v5.9 在线更新解析包修复(ApkProvider)",
+  "release_notes": "应用名恢复纯软件名(去除桌面图标版本号后缀): 仅 APK 安装包文件名保留\"软件名+版本号\", 桌面应用名固定为\"CarPad服务端/CarPad副屏\"(用户澄清); 功能代码同 v5.10",
   "server": {
-    "vname": "5.10",
-    "vcode": 15,
-    "url": "apk/CarPadServer_v5.10.apk",
-    "sha256": "5c7b409038012cf4b5b227b5b5ba3e138c8d56748c9cbfa8e26a1ce7c707efd9",
+    "vname": "5.11",
+    "vcode": 16,
+    "url": "apk/CarPadServer_v5.11.apk",
+    "sha256": "52aa00c24848a0b52f78a9577e4463adf1695ebc0e950c697b4d5aac16966110",
     "size": 54069
   },
   "client": {
-    "vname": "5.10",
-    "vcode": 15,
-    "url": "apk/CarPadClient_v5.10.apk",
-    "sha256": "c18913dd11d7c750d191e779e99c5024190aca071e831c938b6ff76831fdf7ad",
+    "vname": "5.11",
+    "vcode": 16,
+    "url": "apk/CarPadClient_v5.11.apk",
+    "sha256": "1839940b97e11e6f104c0176d1e2762cd9ef8e9846114bec9031974707a6a484",
     "size": 41780
   }
 }

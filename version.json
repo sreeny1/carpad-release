@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-19",
-  "release_notes": "升级完全解耦(用户要求): 平板不再代触发车机端OTA(update_check移除), 两端各自独立检测/下载/安装更新; 新增双向版本互显: 车机端界面显示\"平板端版本\", 平板顶栏继续显示车机端版本",
+  "release_notes": "v5.14: 日志云端直传——两端「上传日志」一键直传GitHub私有仓库logs/目录, 明确反馈✓编号/✗失败原因, 失败保留本地兜底(平板端失败时弹分享面板手动通道); 车机端在线更新无ADB环境自动降级系统安装器(修复手机测试ADB通道不可用), 缺安装授权自动跳设置页",
   "server": {
-    "vname": "5.13",
-    "vcode": 18,
-    "url": "apk/CarPadServer_v5.13.apk",
-    "sha256": "7e86a8b6723d8e8544defaf8d0ccddde3b32e952d031169d4ea2f13cba706dac",
+    "vname": "5.14",
+    "vcode": 19,
+    "url": "apk/CarPadServer_v5.14.apk",
+    "sha256": "129eb853878431c01aaf8fa197988175d7b9047ade3f23ca64bd1852efc4cdfe",
     "size": 54069
   },
   "client": {
-    "vname": "5.13",
-    "vcode": 18,
-    "url": "apk/CarPadClient_v5.13.apk",
-    "sha256": "776b09b41848f7252be1dbeeaa74d32f7c77192b78228593ffc4ebd63e4ffc34",
-    "size": 41780
+    "vname": "5.14",
+    "vcode": 19,
+    "url": "apk/CarPadClient_v5.14.apk",
+    "sha256": "689b87d7332a74532ee0896897066124fb417a6e6c084c7a881a3607722d6898",
+    "size": 45876
   }
 }

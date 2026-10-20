@@ -1,19 +1,19 @@
 {
-    "schema":  1,
-    "updated":  "2026-10-20",
-    "release_notes":  "音乐主路径根因修复: getActiveSessions 必须传已授权监听器组件名(传null对普通APK必抛SecurityException, v5.6起歌名/歌词/播控从未真正生效的元凶), 修复后歌名/歌词/播控对byd媒体中心与QQ音乐等第三方APP同时生效; 音量交互改造: 进度条改纯显示+按钮±5步进+80%上限(防误触音量突增)",
-    "server":  {
-                   "vname":  "5.15",
-                   "vcode":  20,
-                   "url":  "apk/CarPadServer_v5.15.apk",
-                   "sha256":  "6f1b6837d9065301293153a2f8ae7ba1b0c8be683027dc2e395d619aa1b31c7a",
-                   "size":  54069
-               },
-    "client":  {
-                   "vname":  "5.15",
-                   "vcode":  20,
-                   "url":  "apk/CarPadClient_v5.15.apk",
-                   "sha256":  "5a4cc3285b95ff29ac73ff0a5440ba772c4afc9d41e8982897e70cd813464e81",
-                   "size":  45876
-               }
+  "schema": 1,
+  "updated": "2026-10-20",
+  "release_notes": "音量刻度同步修复: 协议与显示改用车机原生档位(0~39, 显示格式12/39, 与车机屏数字完全一致), 消除百分比换算舍入导致的跳变不准; 步进改±1档(车机最小步长, 最精准); 服务端新增volume_max字段自动探测车机最大档位",
+  "server": {
+    "vname": "5.16",
+    "vcode": 21,
+    "url": "apk/CarPadServer_v5.16.apk",
+    "sha256": "173241cb061ee66dedbc4c6ccbca747dada7a8541df124ca2ab0708f3e6abef0",
+    "size": 54069
+  },
+  "client": {
+    "vname": "5.16",
+    "vcode": 21,
+    "url": "apk/CarPadClient_v5.16.apk",
+    "sha256": "8608e1631c6aa13872bdb7fc77fd16c71a13e9d3c4b82e9a7cf9fa0b1b276b3f",
+    "size": 45876
+  }
 }

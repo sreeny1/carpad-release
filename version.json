@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "修复实车反馈四项: 1)音量进度条连按跳变(乐观值被轮询旧值覆盖, 加确认窗口) 2)音乐进度条不随播放滚动(400ms本地平滑推进)+拖动后回跳(即时落点+2.5s旧位置屏蔽) 3)自带音乐APP专辑封面拉不到(远程封面URI联网下载) 4)平板封面缓存ENOENT(无权限回退私有目录); 歌词单行模式升级为当前行+下一行QQ层级+淡入动画; 歌词兜底增强(标准LYRICS键+LRC解析), QQ音乐元数据诊断日志取证",
+  "release_notes": "",
   "server": {
-    "vname": "5.25",
-    "vcode": 30,
-    "url": "apk/CarPadServer_v5.25.apk",
-    "sha256": "216f4dc609bd5207803c6f3e65d63863eaec5438bb21145791eb1e416e025c0b",
+    "vname": "5.26",
+    "vcode": 31,
+    "url": "apk/CarPadServer_v5.26.apk",
+    "sha256": "d9d26ad55d54ddfbe9063e2d4b720420b192314ed821e92aec24290edfbfabeb",
     "size": 58165
   },
   "client": {
-    "vname": "5.25",
-    "vcode": 30,
-    "url": "apk/CarPadClient_v5.25.apk",
-    "sha256": "66d9adcc124d05472c271a7b18335535d0a348acd767d017835992531598a250",
-    "size": 58238
+    "vname": "5.26",
+    "vcode": 31,
+    "url": "apk/CarPadClient_v5.26.apk",
+    "sha256": "d2a5359e9015eddff7a3962dbe631ffa2c4efb90d3dce8d8e4bbb9f6dec478a3",
+    "size": 62334
   }
 }

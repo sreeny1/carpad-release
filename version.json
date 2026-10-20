@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "v5.19: QQ音乐风格歌词美化(五行视窗/当前行高亮加粗/未唱行白30%)+皮肤主题(深空蓝/QQ音乐绿/落日橙, 顶栏切换+持久化)+专辑封面(双端, 切歌推送+迟到补读+本地缓存)",
+  "release_notes": "v5.20: 界面精简——操作反馈并入顶部状态区(圆点+文字, 取代红色长条横幅), 布局上移更清爽; 反馈语义不变(黄=执行中/绿=成功/红=失败, 到期自动恢复连接状态)",
   "server": {
-    "vname": "5.19",
-    "vcode": 24,
-    "url": "apk/CarPadServer_v5.19.apk",
-    "sha256": "1019763b4f74572ebb042b77dd8441a08c584066d6e1e0e4db8812bd88072ac5",
+    "vname": "5.20",
+    "vcode": 25,
+    "url": "apk/CarPadServer_v5.20.apk",
+    "sha256": "1c97f395545a10fba3de4915fa62e32d31bab627c89a9be60644abf146e4355b",
     "size": 58165
   },
   "client": {
-    "vname": "5.19",
-    "vcode": 24,
-    "url": "apk/CarPadClient_v5.19.apk",
-    "sha256": "a68466d89608c148fd12f552569d290dfa8eec72960ab7003594126f35137522",
+    "vname": "5.20",
+    "vcode": 25,
+    "url": "apk/CarPadClient_v5.20.apk",
+    "sha256": "99facab6578dd9da40e5236baededb5b4ba149c9239b36019eee9d05901762e0",
     "size": 49972
   }
 }

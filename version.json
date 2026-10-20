@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "音量刻度同步修复: 协议与显示改用车机原生档位(0~39, 显示格式12/39, 与车机屏数字完全一致), 消除百分比换算舍入导致的跳变不准; 步进改±1档(车机最小步长, 最精准); 服务端新增volume_max字段自动探测车机最大档位",
+  "release_notes": "音量步进修复: v5.16漏改按钮监听器传参(仍±5, 实车日志value=1→6→1证实), 现改±1档——每次按键音量精确走1档, 与车机原生刻度完全同步",
   "server": {
-    "vname": "5.16",
-    "vcode": 21,
-    "url": "apk/CarPadServer_v5.16.apk",
-    "sha256": "173241cb061ee66dedbc4c6ccbca747dada7a8541df124ca2ab0708f3e6abef0",
+    "vname": "5.17",
+    "vcode": 22,
+    "url": "apk/CarPadServer_v5.17.apk",
+    "sha256": "5cccd008f4d113d25af435e32d244015cfcf9b73fbca0a5ff7cf121afd7cc0c2",
     "size": 54069
   },
   "client": {
-    "vname": "5.16",
-    "vcode": 21,
-    "url": "apk/CarPadClient_v5.16.apk",
-    "sha256": "8608e1631c6aa13872bdb7fc77fd16c71a13e9d3c4b82e9a7cf9fa0b1b276b3f",
+    "vname": "5.17",
+    "vcode": 22,
+    "url": "apk/CarPadClient_v5.17.apk",
+    "sha256": "ad4dca9d0a429f8c304787801ed166d7b9746b0031bb6614b15fd8d27b4bfdbf",
     "size": 45876
   }
 }

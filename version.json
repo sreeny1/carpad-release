@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "v5.23 众测版: 设备注册心跳(匿名UUID+设备/车型/版本概况云端登记)+崩溃自动上报(下次启动无感上传)+设置页车型选择——同款车型众测基建, 界面与功能与v5.22一致",
+  "release_notes": "v5.24: 车型自动识别探测——车机端只读系统属性打诊断日志(tag=Car)+车辆标识经hello下发随设备注册表上报, 实车验证后定权威字段; 其余与v5.23一致",
   "server": {
-    "vname": "5.23",
-    "vcode": 28,
-    "url": "apk/CarPadServer_v5.23.apk",
-    "sha256": "7d7a3f03d6d3b3330f7ee9641c5259268a37c498d4f77723c1045af9c2313e69",
+    "vname": "5.24",
+    "vcode": 29,
+    "url": "apk/CarPadServer_v5.24.apk",
+    "sha256": "5340b15bec046fe7317e04f85b78a43b04b22c534f137979a33a7fe881117b04",
     "size": 58165
   },
   "client": {
-    "vname": "5.23",
-    "vcode": 28,
-    "url": "apk/CarPadClient_v5.23.apk",
-    "sha256": "c086871c05e959d24a9e954d094599e7f6801092e317244aeaf45d220a04613f",
+    "vname": "5.24",
+    "vcode": 29,
+    "url": "apk/CarPadClient_v5.24.apk",
+    "sha256": "49368f84298adc0a162bee65cc2928eb17816d642e8afd7ec9cfcffb1192d174",
     "size": 58238
   }
 }

@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "v5.22: 设置页关闭掉帧修复——禁用全屏窗口系统动画(高分屏合成开销大), 改面板级120ms快速淡入淡出",
+  "release_notes": "v5.23 众测版: 设备注册心跳(匿名UUID+设备/车型/版本概况云端登记)+崩溃自动上报(下次启动无感上传)+设置页车型选择——同款车型众测基建, 界面与功能与v5.22一致",
   "server": {
-    "vname": "5.22",
-    "vcode": 27,
-    "url": "apk/CarPadServer_v5.22.apk",
-    "sha256": "0149961152d2972128172f310deeb744922e18909e1029dde0f06f7e254ac76e",
+    "vname": "5.23",
+    "vcode": 28,
+    "url": "apk/CarPadServer_v5.23.apk",
+    "sha256": "7d7a3f03d6d3b3330f7ee9641c5259268a37c498d4f77723c1045af9c2313e69",
     "size": 58165
   },
   "client": {
-    "vname": "5.22",
-    "vcode": 27,
-    "url": "apk/CarPadClient_v5.22.apk",
-    "sha256": "c6c538ab70dd39c3198a68fa5f712cfa531830c2ba45019765d464a0dd9eedc9",
-    "size": 54142
+    "vname": "5.23",
+    "vcode": 28,
+    "url": "apk/CarPadClient_v5.23.apk",
+    "sha256": "c086871c05e959d24a9e954d094599e7f6801092e317244aeaf45d220a04613f",
+    "size": 58238
   }
 }

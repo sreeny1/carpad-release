@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "v5.24: 车型自动识别探测——车机端只读系统属性打诊断日志(tag=Car)+车辆标识经hello下发随设备注册表上报, 实车验证后定权威字段; 其余与v5.23一致",
+  "release_notes": "修复实车反馈四项: 1)音量进度条连按跳变(乐观值被轮询旧值覆盖, 加确认窗口) 2)音乐进度条不随播放滚动(400ms本地平滑推进)+拖动后回跳(即时落点+2.5s旧位置屏蔽) 3)自带音乐APP专辑封面拉不到(远程封面URI联网下载) 4)平板封面缓存ENOENT(无权限回退私有目录); 歌词单行模式升级为当前行+下一行QQ层级+淡入动画; 歌词兜底增强(标准LYRICS键+LRC解析), QQ音乐元数据诊断日志取证",
   "server": {
-    "vname": "5.24",
-    "vcode": 29,
-    "url": "apk/CarPadServer_v5.24.apk",
-    "sha256": "5340b15bec046fe7317e04f85b78a43b04b22c534f137979a33a7fe881117b04",
+    "vname": "5.25",
+    "vcode": 30,
+    "url": "apk/CarPadServer_v5.25.apk",
+    "sha256": "216f4dc609bd5207803c6f3e65d63863eaec5438bb21145791eb1e416e025c0b",
     "size": 58165
   },
   "client": {
-    "vname": "5.24",
-    "vcode": 29,
-    "url": "apk/CarPadClient_v5.24.apk",
-    "sha256": "49368f84298adc0a162bee65cc2928eb17816d642e8afd7ec9cfcffb1192d174",
+    "vname": "5.25",
+    "vcode": 30,
+    "url": "apk/CarPadClient_v5.25.apk",
+    "sha256": "66d9adcc124d05472c271a7b18335535d0a348acd767d017835992531598a250",
     "size": 58238
   }
 }

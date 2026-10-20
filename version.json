@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "音量步进修复: v5.16漏改按钮监听器传参(仍±5, 实车日志value=1→6→1证实), 现改±1档——每次按键音量精确走1档, 与车机原生刻度完全同步",
+  "release_notes": "歌词三行显示(用户需求): 平板歌词区升级为上句/当前行/下句三行结构, 本地400ms平滑推算跟随播放进度, 滚动不依赖推送频率; 无全量歌词时退回车机即时行兜底; 无歌词源时空态提示; 服务端切歌残留修复+歌词诊断日志(切歌/音源/即时行/解析行数)",
   "server": {
-    "vname": "5.17",
-    "vcode": 22,
-    "url": "apk/CarPadServer_v5.17.apk",
-    "sha256": "5cccd008f4d113d25af435e32d244015cfcf9b73fbca0a5ff7cf121afd7cc0c2",
-    "size": 54069
+    "vname": "5.18",
+    "vcode": 23,
+    "url": "apk/CarPadServer_v5.18.apk",
+    "sha256": "dc90727bf6bd5e6ea07129e23db73840edf86601877f036f55121d6db6c8725b",
+    "size": 58165
   },
   "client": {
-    "vname": "5.17",
-    "vcode": 22,
-    "url": "apk/CarPadClient_v5.17.apk",
-    "sha256": "ad4dca9d0a429f8c304787801ed166d7b9746b0031bb6614b15fd8d27b4bfdbf",
+    "vname": "5.18",
+    "vcode": 23,
+    "url": "apk/CarPadClient_v5.18.apk",
+    "sha256": "d6359bb87b62e233879c789fc8a88e64061fb61b3304ec38f0293c6913b39983",
     "size": 45876
   }
 }

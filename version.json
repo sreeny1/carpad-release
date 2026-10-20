@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "v5.20: 界面精简——操作反馈并入顶部状态区(圆点+文字, 取代红色长条横幅), 布局上移更清爽; 反馈语义不变(黄=执行中/绿=成功/红=失败, 到期自动恢复连接状态)",
+  "release_notes": "v5.21: 设置二级页(右上角设置按钮收纳主题/上传日志/检查更新, 主页顶栏收窄30dp更简洁)+日志双保险(按连接状态分支提示, 车机端日志合并任何失败均不影响平板端本机日志上传)",
   "server": {
-    "vname": "5.20",
-    "vcode": 25,
-    "url": "apk/CarPadServer_v5.20.apk",
-    "sha256": "1c97f395545a10fba3de4915fa62e32d31bab627c89a9be60644abf146e4355b",
+    "vname": "5.21",
+    "vcode": 26,
+    "url": "apk/CarPadServer_v5.21.apk",
+    "sha256": "ba00888e46a385a149c176a048b6d93a703296b93e475398685ba1ae11a9a4b4",
     "size": 58165
   },
   "client": {
-    "vname": "5.20",
-    "vcode": 25,
-    "url": "apk/CarPadClient_v5.20.apk",
-    "sha256": "99facab6578dd9da40e5236baededb5b4ba149c9239b36019eee9d05901762e0",
-    "size": 49972
+    "vname": "5.21",
+    "vcode": 26,
+    "url": "apk/CarPadClient_v5.21.apk",
+    "sha256": "e82d67c421b12ec2bdc711b3a80441426b861a779da7986d4eb3fca3b38a7c80",
+    "size": 50046
   }
 }

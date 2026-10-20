@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-20",
-  "release_notes": "v5.21: 设置二级页(右上角设置按钮收纳主题/上传日志/检查更新, 主页顶栏收窄30dp更简洁)+日志双保险(按连接状态分支提示, 车机端日志合并任何失败均不影响平板端本机日志上传)",
+  "release_notes": "v5.22: 设置页关闭掉帧修复——禁用全屏窗口系统动画(高分屏合成开销大), 改面板级120ms快速淡入淡出",
   "server": {
-    "vname": "5.21",
-    "vcode": 26,
-    "url": "apk/CarPadServer_v5.21.apk",
-    "sha256": "ba00888e46a385a149c176a048b6d93a703296b93e475398685ba1ae11a9a4b4",
+    "vname": "5.22",
+    "vcode": 27,
+    "url": "apk/CarPadServer_v5.22.apk",
+    "sha256": "0149961152d2972128172f310deeb744922e18909e1029dde0f06f7e254ac76e",
     "size": 58165
   },
   "client": {
-    "vname": "5.21",
-    "vcode": 26,
-    "url": "apk/CarPadClient_v5.21.apk",
-    "sha256": "e82d67c421b12ec2bdc711b3a80441426b861a779da7986d4eb3fca3b38a7c80",
-    "size": 50046
+    "vname": "5.22",
+    "vcode": 27,
+    "url": "apk/CarPadClient_v5.22.apk",
+    "sha256": "c6c538ab70dd39c3198a68fa5f712cfa531830c2ba45019765d464a0dd9eedc9",
+    "size": 54142
   }
 }

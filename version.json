@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "updated": "2026-10-19",
-  "release_notes": "v5.14: 日志云端直传——两端「上传日志」一键直传GitHub私有仓库logs/目录, 明确反馈✓编号/✗失败原因, 失败保留本地兜底(平板端失败时弹分享面板手动通道); 车机端在线更新无ADB环境自动降级系统安装器(修复手机测试ADB通道不可用), 缺安装授权自动跳设置页",
+  "updated": "2026-10-20",
+  "release_notes": "",
   "server": {
-    "vname": "5.14",
-    "vcode": 19,
-    "url": "apk/CarPadServer_v5.14.apk",
-    "sha256": "129eb853878431c01aaf8fa197988175d7b9047ade3f23ca64bd1852efc4cdfe",
+    "vname": "5.15",
+    "vcode": 20,
+    "url": "apk/CarPadServer_v5.15.apk",
+    "sha256": "6f1b6837d9065301293153a2f8ae7ba1b0c8be683027dc2e395d619aa1b31c7a",
     "size": 54069
   },
   "client": {
-    "vname": "5.14",
-    "vcode": 19,
-    "url": "apk/CarPadClient_v5.14.apk",
-    "sha256": "689b87d7332a74532ee0896897066124fb417a6e6c084c7a881a3607722d6898",
+    "vname": "5.15",
+    "vcode": 20,
+    "url": "apk/CarPadClient_v5.15.apk",
+    "sha256": "5a4cc3285b95ff29ac73ff0a5440ba772c4afc9d41e8982897e70cd813464e81",
     "size": 45876
   }
 }

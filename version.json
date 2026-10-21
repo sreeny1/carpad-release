@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "风量条新增按住滑动调节：滑块跟手、档位实时切换，点按跳档保持不变；交互手感对齐澎湃OS",
+  "release_notes": "设置弹窗 DPI 兼容：屏幕不够高时菜单区自动可上下滑动，全部设置项都能够到；原有外观不变",
   "server": {
-    "vname": "5.43",
-    "vcode": 48,
-    "url": "apk/CarPadServer_v5.43.apk",
-    "sha256": "59a0741c41853a55ce83eec0cfe7250451bffff996dd6332a7d343a6b7a00876",
+    "vname": "5.44",
+    "vcode": 49,
+    "url": "apk/CarPadServer_v5.44.apk",
+    "sha256": "f58c2df24d2125924b9f567af516aa0c62eb0874c9f281c732e4ce42a9e4e940",
     "size": 62261
   },
   "client": {
-    "vname": "5.43",
-    "vcode": 48,
-    "url": "apk/CarPadClient_v5.43.apk",
-    "sha256": "bc1f30263232fa923d096015e4cf682071947dece45651ff36334ca7ba9f1fdb",
+    "vname": "5.44",
+    "vcode": 49,
+    "url": "apk/CarPadClient_v5.44.apk",
+    "sha256": "d3fab616f94855998f3c65718e1c086a5bdf88e1b0c399575cefc98603ae55af",
     "size": 88783
   }
 }

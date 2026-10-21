@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "自动更新升级版：1)平板端打开App后5秒自动静默检查更新,发现新版本自动下载并弹出安装界面 2)车机端启动10秒即查更新,修复旧版首查失败后死等6小时不再检查的问题(失败改为5分钟后自动重试) 3)设置页手动检查更新保留",
+  "release_notes": "实车反馈修复版：1)修复播放/暂停按钮每秒忽大忽小闪烁(500ms推送重复重播图标切换动画,现状态不变零操作) 2)修复歌词下方两行被进度条区域裁剪遮挡(封面84→72dp/歌名22→20sp/歌词行距字号紧凑化/进度条上留6dp间距,五行歌词完整可见)",
   "server": {
-    "vname": "5.38",
-    "vcode": 43,
-    "url": "apk/CarPadServer_v5.38.apk",
-    "sha256": "c72c37d3930826b2afb309b7f8e1053071f7e1429c81c7bd65cc5fa7c03dba8e",
+    "vname": "5.39",
+    "vcode": 44,
+    "url": "apk/CarPadServer_v5.39.apk",
+    "sha256": "aff28ca03039a221dd87d5490302419670e379f07d8a07419cfebcb60d75cebc",
     "size": 62261
   },
   "client": {
-    "vname": "5.38",
-    "vcode": 43,
-    "url": "apk/CarPadClient_v5.38.apk",
-    "sha256": "3c88484f986ee792545a46eff3cf121e9e3370858ac81cd0b216675cc3fba704",
+    "vname": "5.39",
+    "vcode": 44,
+    "url": "apk/CarPadClient_v5.39.apk",
+    "sha256": "25746fbc89a3cae4ae659877ff784cfee52073c9d86262ae0ff28eca9b9c0e44",
     "size": 88783
   }
 }

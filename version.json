@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "1)歌词错配修复: 搜索取10条候选按歌名+歌手+时长三重验证, 缓存键纳入时长 2)token移出APK(防GitHub扫描撤销), 双端改读本地token.txt 3)新增钉钉零配置日志通道: 无token或GitHub不可达时自动直传钉钉群(分段+限流重试), 众测用户零配置",
+  "release_notes": "日志上传定版: 统一走钉钉群直传(零配置, 不再依赖任何token/GitHub), 分段上传+限流重试; 清理GitHub通道冗余代码; 含v5.27歌词时长三重校验",
   "server": {
-    "vname": "5.28",
-    "vcode": 33,
-    "url": "apk/CarPadServer_v5.28.apk",
-    "sha256": "7664bb7dfd024ede1e8874ee93081a54c0458f75630fbd353551c007c1abd7f8",
+    "vname": "5.29",
+    "vcode": 34,
+    "url": "apk/CarPadServer_v5.29.apk",
+    "sha256": "1ff38cdaf7c7b51e065f5b8a60a3f0bfa7a03f65241b9297a768877484a3f1ca",
     "size": 62261
   },
   "client": {
-    "vname": "5.28",
-    "vcode": 33,
-    "url": "apk/CarPadClient_v5.28.apk",
-    "sha256": "992428e301d77d50c3cd1581d25541a47ab6282c5783d786ba1014874faaf93f",
+    "vname": "5.29",
+    "vcode": 34,
+    "url": "apk/CarPadClient_v5.29.apk",
+    "sha256": "a33dc21f066fcf79063de777a93a5703d565c54f406020235d6884ee5997c978",
     "size": 62334
   }
 }

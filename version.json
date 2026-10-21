@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "紧急修复v5.33闪退: 设置按钮布局改ImageButton后Java字段类型未同步导致启动强转崩溃, 已修正; v5.33全部UI改进保留",
+  "release_notes": "UI升级: 风量改滑块式分段控件、空调模式改图标卡片、温度大数字滚动、进度条/音量条全新样式、歌词距离缩放、连接呼吸点、设置弹窗弹性入场; 协议零变更, 建议车机端与平板端同步升级",
   "server": {
-    "vname": "5.34",
-    "vcode": 39,
-    "url": "apk/CarPadServer_v5.34.apk",
-    "sha256": "8a5914297143b5c0eac1cf7544a4bbc052fc9a426a0600081a4981bbee4b2fa9",
+    "vname": "5.35",
+    "vcode": 40,
+    "url": "apk/CarPadServer_v5.35.apk",
+    "sha256": "f3f2da3d85f683122cac9a01387042d4f14b80c6154f2d0feecf43d9b048e7aa",
     "size": 58165
   },
   "client": {
-    "vname": "5.34",
-    "vcode": 39,
-    "url": "apk/CarPadClient_v5.34.apk",
-    "sha256": "516f45cdc0c5fdf484320115229e22faeaaa0a6c1800859f3f2521801375c365",
-    "size": 71256
+    "vname": "5.35",
+    "vcode": 40,
+    "url": "apk/CarPadClient_v5.35.apk",
+    "sha256": "bba52ee059ff7fb292f7139713f422a65a9d6861c4dfffd176c25a0b349e9a22",
+    "size": 80164
   }
 }

@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "歌词遮挡根治：时间并入进度条行+进度条/音量条瘦身+歌词区上下渐变淡出+完全出界行自动隐藏兜底；新增车内温度显示(车外温度旁, 无数据自动隐藏)；修复衔接顺滑, 协议零变更",
+  "release_notes": "修复歌词下方深色方块(移除色块遮罩改为行级透明渐隐,与面板玻璃高光零色差)；播放/暂停按钮点击即时切换(乐观预切换+推送校准)；其余保持 v5.40",
   "server": {
-    "vname": "5.40",
-    "vcode": 45,
-    "url": "apk/CarPadServer_v5.40.apk",
-    "sha256": "a0ef47a1d20ae7958ba565044a6f57c37e80c01a42f5cdd65a74cdbd55ffd63f",
+    "vname": "5.41",
+    "vcode": 46,
+    "url": "apk/CarPadServer_v5.41.apk",
+    "sha256": "30f464a59456081f0e82737cd099879d86d64d1947e82342ddf1b60cd6f064de",
     "size": 62261
   },
   "client": {
-    "vname": "5.40",
-    "vcode": 45,
-    "url": "apk/CarPadClient_v5.40.apk",
-    "sha256": "56ce1cca55b4698eabbad53cb8f792fc818277c7a3fb388e62dabdadb17e61bb",
+    "vname": "5.41",
+    "vcode": 46,
+    "url": "apk/CarPadClient_v5.41.apk",
+    "sha256": "02b0d5682e3eaa0c32530e8dbd97d5fc5cb43fe572dd8315bf96c47c4b4b4ac8",
     "size": 88783
   }
 }

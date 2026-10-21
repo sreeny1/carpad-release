@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "日志上传定版: 统一走钉钉群直传(零配置, 不再依赖任何token/GitHub), 分段上传+限流重试; 清理GitHub通道冗余代码; 含v5.27歌词时长三重校验",
+  "release_notes": "钉钉日志分段加固: 实测定案钉钉单条请求体硬上限20000字节, 分段从14KB降为9KB(留JSON转义膨胀双倍余量), 任何日志密度都不会上传不完整",
   "server": {
-    "vname": "5.29",
-    "vcode": 34,
-    "url": "apk/CarPadServer_v5.29.apk",
-    "sha256": "1ff38cdaf7c7b51e065f5b8a60a3f0bfa7a03f65241b9297a768877484a3f1ca",
+    "vname": "5.30",
+    "vcode": 35,
+    "url": "apk/CarPadServer_v5.30.apk",
+    "sha256": "71d1d682a09b19a6687e2741946c48f2d158ce691f9c0672878de99c9ebdc7ac",
     "size": 62261
   },
   "client": {
-    "vname": "5.29",
-    "vcode": 34,
-    "url": "apk/CarPadClient_v5.29.apk",
-    "sha256": "a33dc21f066fcf79063de777a93a5703d565c54f406020235d6884ee5997c978",
+    "vname": "5.30",
+    "vcode": 35,
+    "url": "apk/CarPadClient_v5.30.apk",
+    "sha256": "6d73b83a1aadf4c4047268e4e367dc50f652c8b70636b97d3edd97c89a0eb3e5",
     "size": 62334
   }
 }

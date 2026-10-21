@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "UI迭代第1批(澎湃OS风格): ①玻璃卡片面板(顶光渐变+高光描边) ②按钮涟漪水波纹+按压缩放回弹手感 ③播放键渐变+光晕+图标切换动画 ④10枚矢量图标替换全部Unicode字符 ⑤三套主题重调(深空蓝/小米橙/QQ音乐绿)+十色Token体系; 功能逻辑零改动",
+  "release_notes": "紧急修复v5.33闪退: 设置按钮布局改ImageButton后Java字段类型未同步导致启动强转崩溃, 已修正; v5.33全部UI改进保留",
   "server": {
-    "vname": "5.33",
-    "vcode": 38,
-    "url": "apk/CarPadServer_v5.33.apk",
-    "sha256": "4634a4df2334db9b4da0a766dc07695f9541dbd64b4886789c2432e65d6ec813",
+    "vname": "5.34",
+    "vcode": 39,
+    "url": "apk/CarPadServer_v5.34.apk",
+    "sha256": "8a5914297143b5c0eac1cf7544a4bbc052fc9a426a0600081a4981bbee4b2fa9",
     "size": 58165
   },
   "client": {
-    "vname": "5.33",
-    "vcode": 38,
-    "url": "apk/CarPadClient_v5.33.apk",
-    "sha256": "53f7d9072908afe3920255df5e5121bd91f4cbcf82a62bb01ef30ea0ec034f1a",
+    "vname": "5.34",
+    "vcode": 39,
+    "url": "apk/CarPadClient_v5.34.apk",
+    "sha256": "516f45cdc0c5fdf484320115229e22faeaaa0a6c1800859f3f2521801375c365",
     "size": 71256
   }
 }

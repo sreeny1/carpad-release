@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "修复歌词下方深色方块(移除色块遮罩改为行级透明渐隐,与面板玻璃高光零色差)；播放/暂停按钮点击即时切换(乐观预切换+推送校准)；其余保持 v5.40",
+  "release_notes": "动效全量核对：24处动画曲线与时长逐点比对UI设计规范，歌词淡入统一强缓出曲线，其余全部合规；规范固化为五档时长体系",
   "server": {
-    "vname": "5.41",
-    "vcode": 46,
-    "url": "apk/CarPadServer_v5.41.apk",
-    "sha256": "30f464a59456081f0e82737cd099879d86d64d1947e82342ddf1b60cd6f064de",
+    "vname": "5.42",
+    "vcode": 47,
+    "url": "apk/CarPadServer_v5.42.apk",
+    "sha256": "cd11196717901080870c84013f8e9d7b66632e3cacfb3eecc7bd858906661b6e",
     "size": 62261
   },
   "client": {
-    "vname": "5.41",
-    "vcode": 46,
-    "url": "apk/CarPadClient_v5.41.apk",
-    "sha256": "02b0d5682e3eaa0c32530e8dbd97d5fc5cb43fe572dd8315bf96c47c4b4b4ac8",
+    "vname": "5.42",
+    "vcode": 47,
+    "url": "apk/CarPadClient_v5.42.apk",
+    "sha256": "ff36e7ad97969117a93732d6299a4bacb88693ad95d61b94c6c1bcc6274c1d09",
     "size": 88783
   }
 }

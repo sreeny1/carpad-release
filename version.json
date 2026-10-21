@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "动效全量核对：24处动画曲线与时长逐点比对UI设计规范，歌词淡入统一强缓出曲线，其余全部合规；规范固化为五档时长体系",
+  "release_notes": "风量条新增按住滑动调节：滑块跟手、档位实时切换，点按跳档保持不变；交互手感对齐澎湃OS",
   "server": {
-    "vname": "5.42",
-    "vcode": 47,
-    "url": "apk/CarPadServer_v5.42.apk",
-    "sha256": "cd11196717901080870c84013f8e9d7b66632e3cacfb3eecc7bd858906661b6e",
+    "vname": "5.43",
+    "vcode": 48,
+    "url": "apk/CarPadServer_v5.43.apk",
+    "sha256": "59a0741c41853a55ce83eec0cfe7250451bffff996dd6332a7d343a6b7a00876",
     "size": 62261
   },
   "client": {
-    "vname": "5.42",
-    "vcode": 47,
-    "url": "apk/CarPadClient_v5.42.apk",
-    "sha256": "ff36e7ad97969117a93732d6299a4bacb88693ad95d61b94c6c1bcc6274c1d09",
+    "vname": "5.43",
+    "vcode": 48,
+    "url": "apk/CarPadClient_v5.43.apk",
+    "sha256": "bc1f30263232fa923d096015e4cf682071947dece45651ff36334ca7ba9f1fdb",
     "size": 88783
   }
 }

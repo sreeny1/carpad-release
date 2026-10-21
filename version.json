@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "修复v5.25复验反馈: 1)进度条锁死在最后一秒=服务端位置双重外推(墙上时钟误减elapsedRealtime基准)爆表后恒等于总时长, 已删除冗余外推 2)车机自带APP全量歌词其实拿得到(实车日志实锤), 修复解析器兼容[\"SUCCESS\",{time,text}]格式后可多行滚动显示 3)新增本地歌词兜底: 不开车机歌词页/QQ音乐也能显示歌词(按歌名自动查网易云下载LRC, 带缓存), 任何音源通用",
+  "release_notes": "1)修复歌词错配: 搜索取10条候选按歌名+歌手+歌曲时长三重验证选最接近歌曲, 缓存键纳入时长(同名不同版本不再错配/不再污染缓存) 2)token安全架构修复: GitHub扫描APK内嵌token并强制撤销(实锤v5.14), token改为设备本地token.txt承载(PC adb push一次), APK永久零token",
   "server": {
-    "vname": "5.26",
-    "vcode": 31,
-    "url": "apk/CarPadServer_v5.26.apk",
-    "sha256": "d9d26ad55d54ddfbe9063e2d4b720420b192314ed821e92aec24290edfbfabeb",
+    "vname": "5.27",
+    "vcode": 32,
+    "url": "apk/CarPadServer_v5.27.apk",
+    "sha256": "016d139360c439d005e66e35b17aafe89d2e662254667eea22d61075de3518bc",
     "size": 58165
   },
   "client": {
-    "vname": "5.26",
-    "vcode": 31,
-    "url": "apk/CarPadClient_v5.26.apk",
-    "sha256": "d2a5359e9015eddff7a3962dbe631ffa2c4efb90d3dce8d8e4bbb9f6dec478a3",
+    "vname": "5.27",
+    "vcode": 32,
+    "url": "apk/CarPadClient_v5.27.apk",
+    "sha256": "973788c4bcaa3e9e11954b27bdd502656481fa43a2be76a693d2b09513c63d58",
     "size": 62334
   }
 }

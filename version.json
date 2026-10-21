@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "UI收尾: 顶栏36dp增时钟显示、设置弹窗菜单加图标+图标关闭键(48dp触控)、封面84dp淡入上浮、音量数值弹跳、主题切换柔光过渡、播放键组新尺寸; UI迭代三批全部完成; 协议零变更",
+  "release_notes": "代码审查修复版：1)Activity销毁时清理全部待执行任务与设置弹窗，消除内存泄漏 2)歌词视窗动画去重，500ms轮询不再重放 3)温度小数负数防御；UI与功能与v5.36完全一致",
   "server": {
-    "vname": "5.36",
-    "vcode": 41,
-    "url": "apk/CarPadServer_v5.36.apk",
-    "sha256": "e0d80e9b7833334953f65a1d692db475aa1fb74ebe00ad443009bb1c973ef510",
+    "vname": "5.37",
+    "vcode": 42,
+    "url": "apk/CarPadServer_v5.37.apk",
+    "sha256": "b225e31860ef3b36034d7136a2bb3dbdf0e9892e7393da3e6b872822476964ce",
     "size": 58165
   },
   "client": {
-    "vname": "5.36",
-    "vcode": 41,
-    "url": "apk/CarPadClient_v5.36.apk",
-    "sha256": "4010181c8de049bb9b5645c8cddd8dd0dd874183a56c32608156e75dc09aeb6f",
+    "vname": "5.37",
+    "vcode": 42,
+    "url": "apk/CarPadClient_v5.37.apk",
+    "sha256": "799e72c92ddeb5b86c80e276ab8fd08afa6e3d21bf6f0024141f67ee0204f343",
     "size": 88783
   }
 }

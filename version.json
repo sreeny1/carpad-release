@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "钉钉日志分段加固: 实测定案钉钉单条请求体硬上限20000字节, 分段从14KB降为9KB(留JSON转义膨胀双倍余量), 任何日志密度都不会上传不完整",
+  "release_notes": "钉钉日志零丢失重构: 段1=可读摘要(元信息+全部错误警告+诊断行, 群里直接看), 段2起=完整日志gzip压缩+base64(体积缩小5-10倍, 600KB大日志也完整送达), PC端tools/ding_decode.py一键还原, 彻底杜绝截断丢失",
   "server": {
-    "vname": "5.30",
-    "vcode": 35,
-    "url": "apk/CarPadServer_v5.30.apk",
-    "sha256": "71d1d682a09b19a6687e2741946c48f2d158ce691f9c0672878de99c9ebdc7ac",
+    "vname": "5.31",
+    "vcode": 36,
+    "url": "apk/CarPadServer_v5.31.apk",
+    "sha256": "ad5eef76f15b3cdf64285239161597e09001e148e9cbc4c0f1adad932903ea99",
     "size": 62261
   },
   "client": {
-    "vname": "5.30",
-    "vcode": 35,
-    "url": "apk/CarPadClient_v5.30.apk",
-    "sha256": "6d73b83a1aadf4c4047268e4e367dc50f652c8b70636b97d3edd97c89a0eb3e5",
+    "vname": "5.31",
+    "vcode": 36,
+    "url": "apk/CarPadClient_v5.31.apk",
+    "sha256": "7f9534979387777662e82443be75fdf12287014f1ff7879f423794ded5d8fb5b",
     "size": 62334
   }
 }

@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "代码审查修复版：1)Activity销毁时清理全部待执行任务与设置弹窗，消除内存泄漏 2)歌词视窗动画去重，500ms轮询不再重放 3)温度小数负数防御；UI与功能与v5.36完全一致",
+  "release_notes": "自动更新升级版：1)平板端打开App后5秒自动静默检查更新,发现新版本自动下载并弹出安装界面 2)车机端启动10秒即查更新,修复旧版首查失败后死等6小时不再检查的问题(失败改为5分钟后自动重试) 3)设置页手动检查更新保留",
   "server": {
-    "vname": "5.37",
-    "vcode": 42,
-    "url": "apk/CarPadServer_v5.37.apk",
-    "sha256": "b225e31860ef3b36034d7136a2bb3dbdf0e9892e7393da3e6b872822476964ce",
-    "size": 58165
+    "vname": "5.38",
+    "vcode": 43,
+    "url": "apk/CarPadServer_v5.38.apk",
+    "sha256": "c72c37d3930826b2afb309b7f8e1053071f7e1429c81c7bd65cc5fa7c03dba8e",
+    "size": 62261
   },
   "client": {
-    "vname": "5.37",
-    "vcode": 42,
-    "url": "apk/CarPadClient_v5.37.apk",
-    "sha256": "799e72c92ddeb5b86c80e276ab8fd08afa6e3d21bf6f0024141f67ee0204f343",
+    "vname": "5.38",
+    "vcode": 43,
+    "url": "apk/CarPadClient_v5.38.apk",
+    "sha256": "3c88484f986ee792545a46eff3cf121e9e3370858ac81cd0b216675cc3fba704",
     "size": 88783
   }
 }

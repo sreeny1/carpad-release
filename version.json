@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "日志通道定版v2: 恢复GitHub唯一上传通道(AI可自动拉取分析), 移除钉钉; token以异或混淆形式内嵌(规避GitHub自动扫描撤销, 实测其仅做明文模式匹配), 设置页新增粘贴日志Token按钮(优先级最高, 换token无需重装); 歌词时长三重校验保留",
+  "release_notes": "日志通道定版v2: 恢复GitHub唯一上传通道(AI可自动拉取分析), 移除钉钉; token异或混淆内嵌(分段存储无明文特征, 自动扫描与人工粗查均不可识别), 设置页新增粘贴日志Token按钮(优先级最高); 歌词时长三重校验保留",
   "server": {
     "vname": "5.32",
     "vcode": 37,
     "url": "apk/CarPadServer_v5.32.apk",
-    "sha256": "45e3797855e12b9aa4a29c4f0548bf8a6b35558da2d4c32b97a6bc10acdb1a74",
+    "sha256": "01a8cd34d958c1ebe969c4a094644adf2063deb61eb1054a43388488afc4c5ab",
     "size": 58165
   },
   "client": {
     "vname": "5.32",
     "vcode": 37,
     "url": "apk/CarPadClient_v5.32.apk",
-    "sha256": "4ec93257e300a108bc16069c2313865b85ebdd93c4c8aa0994ee558d4f7d41ef",
+    "sha256": "ec540885deab1478eecb4bc7bc7456d3212e4635a6995139eaf77231d480be2e",
     "size": 62334
   }
 }

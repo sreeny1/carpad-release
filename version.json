@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-21",
-  "release_notes": "UI升级: 风量改滑块式分段控件、空调模式改图标卡片、温度大数字滚动、进度条/音量条全新样式、歌词距离缩放、连接呼吸点、设置弹窗弹性入场; 协议零变更, 建议车机端与平板端同步升级",
+  "release_notes": "UI收尾: 顶栏36dp增时钟显示、设置弹窗菜单加图标+图标关闭键(48dp触控)、封面84dp淡入上浮、音量数值弹跳、主题切换柔光过渡、播放键组新尺寸; UI迭代三批全部完成; 协议零变更",
   "server": {
-    "vname": "5.35",
-    "vcode": 40,
-    "url": "apk/CarPadServer_v5.35.apk",
-    "sha256": "f3f2da3d85f683122cac9a01387042d4f14b80c6154f2d0feecf43d9b048e7aa",
+    "vname": "5.36",
+    "vcode": 41,
+    "url": "apk/CarPadServer_v5.36.apk",
+    "sha256": "e0d80e9b7833334953f65a1d692db475aa1fb74ebe00ad443009bb1c973ef510",
     "size": 58165
   },
   "client": {
-    "vname": "5.35",
-    "vcode": 40,
-    "url": "apk/CarPadClient_v5.35.apk",
-    "sha256": "bba52ee059ff7fb292f7139713f422a65a9d6861c4dfffd176c25a0b349e9a22",
-    "size": 80164
+    "vname": "5.36",
+    "vcode": 41,
+    "url": "apk/CarPadClient_v5.36.apk",
+    "sha256": "4010181c8de049bb9b5645c8cddd8dd0dd874183a56c32608156e75dc09aeb6f",
+    "size": 88783
   }
 }

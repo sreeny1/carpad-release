@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-22",
-  "release_notes": "v5.50 播放列表预研·队列诊断版：车机端新增媒体队列只读诊断（判断播放列表功能可行性），纯日志零风险，界面零变化。日常使用无任何影响。",
+  "release_notes": "v5.51 三新功能: [空调] 模式行图标化——吹面/吹脚/吹挡组合出风+除霜独立开关+自动互斥(自动开启时方向图标熄灭禁用); 新增一键「暖阳模式」(26°+风量3挡+吹脚+除霜+双前排座椅加热1档, 分步反馈); [座椅] 新增座椅加热/通风弹层(主驾/副驾, 关-1-2循环); [壁纸] 设置页新增壁纸(相册选图+模糊/明暗调节, 重启保留); [回执] 操作反馈改中文名(温度/风量/主驾加热...)",
   "server": {
-    "vname": "5.50",
-    "vcode": 55,
-    "url": "apk/CarPadServer_v5.50.apk",
-    "sha256": "2bb5f764809f221c083f39c4229d2e1ca7efc0597da5a0df9019c5d2fa4e82e8",
+    "vname": "5.51",
+    "vcode": 56,
+    "url": "apk/CarPadServer_v5.51.apk",
+    "sha256": "e2d0c31c4185a7ce0b28c5c56ddfc832b27eedce9f932eb913475abc09009949",
     "size": 62261
   },
   "client": {
-    "vname": "5.50",
-    "vcode": 55,
-    "url": "apk/CarPadClient_v5.50.apk",
-    "sha256": "51f419f1f949aa6f4ef6687cf98a55e84f1e0158f5dbf8c0c7943da8548a73bc",
-    "size": 92879
+    "vname": "5.51",
+    "vcode": 56,
+    "url": "apk/CarPadClient_v5.51.apk",
+    "sha256": "bffab97f0ea98b5817f5e8e56e0932c0165317d4800062369f767047d8fd3ace",
+    "size": 109691
   }
 }

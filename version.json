@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-22",
-  "release_notes": "v5.49 顶栏-面板间隙优化：顶栏 36→30dp+主区上边距 4→0dp，面板整体上移约 10dp 更居中；歌词 3 行显示保持；协议零变更。v5.48 挖孔屏满屏修复延续。",
+  "release_notes": "v5.50 播放列表预研·队列诊断版：车机端新增媒体队列只读诊断（判断播放列表功能可行性），纯日志零风险，界面零变化。日常使用无任何影响。",
   "server": {
-    "vname": "5.49",
-    "vcode": 54,
-    "url": "apk/CarPadServer_v5.49.apk",
-    "sha256": "d25fc5d12113a830d552aa1bc3c53af6a60e154236763e4d59c25bfc3a6ce4b0",
+    "vname": "5.50",
+    "vcode": 55,
+    "url": "apk/CarPadServer_v5.50.apk",
+    "sha256": "2bb5f764809f221c083f39c4229d2e1ca7efc0597da5a0df9019c5d2fa4e82e8",
     "size": 62261
   },
   "client": {
-    "vname": "5.49",
-    "vcode": 54,
-    "url": "apk/CarPadClient_v5.49.apk",
-    "sha256": "5ba396354ef38975a57782b82cfb8c3d073d5759f76b46f1e531d9abb2c7ad5b",
+    "vname": "5.50",
+    "vcode": 55,
+    "url": "apk/CarPadClient_v5.50.apk",
+    "sha256": "51f419f1f949aa6f4ef6687cf98a55e84f1e0158f5dbf8c0c7943da8548a73bc",
     "size": 92879
   }
 }

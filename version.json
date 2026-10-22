@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-22",
-  "release_notes": "挖孔屏满屏修复：声明SHORT_EDGES挖孔模式，修复App窗口被系统避让前置摄像头导致的整体偏移，恢复满屏居中显示。",
+  "release_notes": "v5.49 顶栏-面板间隙优化：顶栏 36→30dp+主区上边距 4→0dp，面板整体上移约 10dp 更居中；歌词 3 行显示保持；协议零变更。v5.48 挖孔屏满屏修复延续。",
   "server": {
-    "vname": "5.48",
-    "vcode": 53,
-    "url": "apk/CarPadServer_v5.48.apk",
-    "sha256": "c29dab757c7e806488f4fcba7dbf2fa1eaad4f2c10ad9aa80027345126db33c5",
+    "vname": "5.49",
+    "vcode": 54,
+    "url": "apk/CarPadServer_v5.49.apk",
+    "sha256": "d25fc5d12113a830d552aa1bc3c53af6a60e154236763e4d59c25bfc3a6ce4b0",
     "size": 62261
   },
   "client": {
-    "vname": "5.48",
-    "vcode": 53,
-    "url": "apk/CarPadClient_v5.48.apk",
-    "sha256": "584df11abac9d074ddd94c9b951e58e2b3f07020f2b4ccec3528b85a7c943807",
+    "vname": "5.49",
+    "vcode": 54,
+    "url": "apk/CarPadClient_v5.49.apk",
+    "sha256": "5ba396354ef38975a57782b82cfb8c3d073d5759f76b46f1e531d9abb2c7ad5b",
     "size": 92879
   }
 }

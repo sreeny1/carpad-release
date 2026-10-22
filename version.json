@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-22",
-  "release_notes": "连续操作防抖合并：温度/风量/音量连按只发最终值（300ms 窗口，单次点击几乎无感，车机省掉多余写流程）；风量拖动回跳修复（松手落定后状态不再 5→1→5 反复）；歌词空间优化（封面/播放键瘦身让位+歌词区自适应阈值校准，调 DPI 后也能显示 3 行）",
+  "release_notes": "多设备DPI分级适配：安卓官方sw600dp资源双档，平板(7/10寸)观感尺寸整体放大，手机观感与上版完全一致；仅横屏；协议零变更。",
   "server": {
-    "vname": "5.46",
-    "vcode": 51,
-    "url": "apk/CarPadServer_v5.46.apk",
-    "sha256": "678f6382aa3ba0b21ab033ba85d0bb38a7049a1aec0f2cff5be14437b368827b",
+    "vname": "5.47",
+    "vcode": 52,
+    "url": "apk/CarPadServer_v5.47.apk",
+    "sha256": "78d25fa8ef53aaab771ada883e8ce5e2948c3022a5c7c53ced2a209aaa2fad85",
     "size": 62261
   },
   "client": {
-    "vname": "5.46",
-    "vcode": 51,
-    "url": "apk/CarPadClient_v5.46.apk",
-    "sha256": "a5b743d90e1a5290e9784401f4aa9b3cb20cc8639c725907881bbba1f7260136",
-    "size": 88783
+    "vname": "5.47",
+    "vcode": 52,
+    "url": "apk/CarPadClient_v5.47.apk",
+    "sha256": "fe51651afa4b30150ee6e978b5705c0255553a76c7bc9d45c1703e53882844d2",
+    "size": 92879
   }
 }

@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-22",
-  "release_notes": "多设备DPI分级适配：安卓官方sw600dp资源双档，平板(7/10寸)观感尺寸整体放大，手机观感与上版完全一致；仅横屏；协议零变更。",
+  "release_notes": "挖孔屏满屏修复：声明SHORT_EDGES挖孔模式，修复App窗口被系统避让前置摄像头导致的整体偏移，恢复满屏居中显示。",
   "server": {
-    "vname": "5.47",
-    "vcode": 52,
-    "url": "apk/CarPadServer_v5.47.apk",
-    "sha256": "78d25fa8ef53aaab771ada883e8ce5e2948c3022a5c7c53ced2a209aaa2fad85",
+    "vname": "5.48",
+    "vcode": 53,
+    "url": "apk/CarPadServer_v5.48.apk",
+    "sha256": "c29dab757c7e806488f4fcba7dbf2fa1eaad4f2c10ad9aa80027345126db33c5",
     "size": 62261
   },
   "client": {
-    "vname": "5.47",
-    "vcode": 52,
-    "url": "apk/CarPadClient_v5.47.apk",
-    "sha256": "fe51651afa4b30150ee6e978b5705c0255553a76c7bc9d45c1703e53882844d2",
+    "vname": "5.48",
+    "vcode": 53,
+    "url": "apk/CarPadClient_v5.48.apk",
+    "sha256": "584df11abac9d074ddd94c9b951e58e2b3f07020f2b4ccec3528b85a7c943807",
     "size": 92879
   }
 }

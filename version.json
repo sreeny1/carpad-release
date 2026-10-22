@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "updated": "2026-10-21",
-  "release_notes": "设置弹窗 DPI 兼容：屏幕不够高时菜单区自动可上下滑动，全部设置项都能够到；原有外观不变",
+  "updated": "2026-10-22",
+  "release_notes": "实车反馈三修复：①风量拖动改为松手落定制——滑动过程中仅跟手显示，落在哪个档位松手后才设置哪个档位，不再逐档连发 ②播放/暂停点击后图标不再抽搐弹跳（车机执行延迟期的旧状态推送不再翻转图标）③歌词高 DPI 裁剪根治——歌词区按容器实际高度自适应显示 5/3/1 行，任何 DPI/分屏形态至少完整显示当前行；新增多设备 DPI 适配规范",
   "server": {
-    "vname": "5.44",
-    "vcode": 49,
-    "url": "apk/CarPadServer_v5.44.apk",
-    "sha256": "f58c2df24d2125924b9f567af516aa0c62eb0874c9f281c732e4ce42a9e4e940",
+    "vname": "5.45",
+    "vcode": 50,
+    "url": "apk/CarPadServer_v5.45.apk",
+    "sha256": "f4b63c3b8273bd1a39d288b88aa1f2e7dad04602942f6da5883965e207201872",
     "size": 62261
   },
   "client": {
-    "vname": "5.44",
-    "vcode": 49,
-    "url": "apk/CarPadClient_v5.44.apk",
-    "sha256": "d3fab616f94855998f3c65718e1c086a5bdf88e1b0c399575cefc98603ae55af",
+    "vname": "5.45",
+    "vcode": 50,
+    "url": "apk/CarPadClient_v5.45.apk",
+    "sha256": "6cf727c51ccf3edbcc61c814abc5c4fb0084a38587e2817fb46ce67bc93e2562",
     "size": 88783
   }
 }

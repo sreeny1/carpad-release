@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "updated": "2026-10-23",
-  "release_notes": "v5.52 修复壁纸选图无效：singleTask 模式导致大屏设备上系统选择器返回后选图结果丢失（onActivityResult 静默不回调），改 standard 模式；新增选图链路诊断日志",
+  "release_notes": "v5.53 修复高DPI设备壁纸弹层按键被裁剪不可见：内容区包ScrollView（UI规范9.1-A2，复用v5.44设置弹窗方案），屏幕不足时内部滚动、三按钮永远可触达；弹层新增DPI/高度实测日志（两设备对比取证）；并含v5.52选图回调修复（singleTask→standard）",
   "server": {
-    "vname": "5.52",
-    "vcode": 57,
-    "url": "apk/CarPadServer_v5.52.apk",
-    "sha256": "6ab7a6c7f1991b3ce042bcd4726a1b3ab94a858b62cdcea9c825b3edf3127485",
+    "vname": "5.53",
+    "vcode": 58,
+    "url": "apk/CarPadServer_v5.53.apk",
+    "sha256": "c59487c0fd71c7750c859e4305a91774c81457a6278560c00d605663ad7bb5bd",
     "size": 62261
   },
   "client": {
-    "vname": "5.52",
-    "vcode": 57,
-    "url": "apk/CarPadClient_v5.52.apk",
-    "sha256": "5a3b4e341bcd0ba0cd62dd2d66c8b5672d7465665218742b3afd42b376d9544f",
+    "vname": "5.53",
+    "vcode": 58,
+    "url": "apk/CarPadClient_v5.53.apk",
+    "sha256": "07eabe58070c63dd83622533754cc6a32eb047dd1ed36fa97b199cbd2ecf7257",
     "size": 109691
   }
 }

@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "updated": "2026-10-23",
-  "release_notes": "v5.54 柔光玻璃面板材质（HyperOS 柔光玻璃复刻）：空调/音乐两大面板升级 GlassDrawable——壁纸时透视模糊壁纸（按面板位置精确取样）+surface 72% 半透明，无壁纸时同样玻璃质感（85% 微透+厚度渐变+切边）；子控件细玻璃层次；静态渲染零每帧开销，协议零变更",
+  "updated": "2026-10-24",
+  "release_notes": "v5.55 修复设置/座椅/壁纸弹层过窄: Dialog窗口默认按内容收缩致面板仅约1/4屏宽, 改为显式全屏窗口+面板宽度封顶(设置/壁纸480dp, 座椅440dp), 观感舒展且窄屏自适应留白",
   "server": {
-    "vname": "5.54",
-    "vcode": 59,
-    "url": "apk/CarPadServer_v5.54.apk",
-    "sha256": "9fc835b1f317ba9068b17f91e56f431b5fe17478a0b47931cd50b3459df059ad",
+    "vname": "5.55",
+    "vcode": 60,
+    "url": "apk/CarPadServer_v5.55.apk",
+    "sha256": "0bb0442d23ab1e03cdff575a01d722488ed67d35632853e5fc44360589367d03",
     "size": 62261
   },
   "client": {
-    "vname": "5.54",
-    "vcode": 59,
-    "url": "apk/CarPadClient_v5.54.apk",
-    "sha256": "7d4a83c9e874524c42b2423b9bdb452a2cfe0611b074adfa65331ebdf7d41068",
+    "vname": "5.55",
+    "vcode": 60,
+    "url": "apk/CarPadClient_v5.55.apk",
+    "sha256": "52005abad075fd49bd7dcbbd55142ff2ae050de14f8a751bc429696da7bb0d77",
     "size": 109691
   }
 }
